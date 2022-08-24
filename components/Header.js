@@ -8,7 +8,7 @@ const styles = {
     headerWrapper: `flex justify-center h-full max-w-screen-xl mx-auto px-4`,
     nav: `flex justify-center items-center gap-[20px]`,
     navItem: `relative mr-1 cursor-pointer hover:opacity-60`,
-    badge: `rounded-full bg-violet-600 h-1 w-1 absolute bottom-5 right-0 top-1 ring-4 ring-violet-4`,
+    badge: `rounded-full bg-violet-600 h-1 w-1 absolute bottom-5 right-0 top-1 ring-4 ring-violet-600`,
     inputContainer: `flex items-center justify-center p-2 rounder bg-[#171924]`,
     input: `bg-transparent outline-none text white w-70 ml-3`
 }
