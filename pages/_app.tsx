@@ -4,8 +4,8 @@ import{MoralisProvider} from "react-moralis"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <MoralisProvider serverUrl={process.env.NEXT_PUBLIC_SERVER}
-    appId={process.env.NEXT_PUBLIC_APP_ID}>
+    <MoralisProvider serverUrl={process.env.NEXT_PUBLIC_SERVER!}
+    appId={process.env.NEXT_PUBLIC_APP_ID!}>
       <Component {...pageProps} />
     </MoralisProvider>
   )
